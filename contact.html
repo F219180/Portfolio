@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/IMG_8084-Photoroom.png-Photoroom.png" type="image/x-icon">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Syeda Daniya</title>
+</head>
+
+<body>
+    <!-- Website Layout -->
+    <div class="website_container">
+
+        <!-- Global Menu -->
+        <div id="global_menu_button_container">
+            <p class="site_title">John Roe</p>
+            <i class="fa fa-bars" id="global_menu_button"></i>
+        </div>
+
+        <ul id="global_menu_items">
+            <div>
+                <i class="fa fa-close" id="global_menu_close_button"></i>
+                <li><a href="/"><i class="fa fa-home"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="Projects.html"><i class="fas fa-pen-nib"></i> Projects</a></li>
+                <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+                <li><a href="contact.html"><i class="fas fa-phone-square"></i> Contact</a></li>
+            </div>
+        </ul>
+
+        <!--x Global Menu x-->
+
+        <!-- sidebar -->
+        <div class="sidebar_container">
+            <!-- Sidebar Image -->
+            <div class="text">
+                <h3>Welcome To my Portfolio!</h3>
+           </div>
+
+            <!-- sidebar Content -->
+            <div class="sidebar_content">
+                <!-- Long name can be applied so easily -->
+                <h1>Syeda Daniya </h1>
+                <p>Computer Scientist</p>
+                <!-- Social Medias -->
+                <div class="social_media">
+                    <a href="https://facebook.com/alivecoder"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/alivecoder0"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/alivecoder"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Sidebar Buttom Menu -->
+            <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
+                <i class="fa fa-bars" id="sidebar_menu_icon"></i>
+            </div>
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar_navigation" id="sidebar_navigation">
+                <li><a href="/">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+        <!-- content -->
+        <div class="content_container">
+            <!-- Contact Page -->
+            <div class="contact_page">
+                <h2 class="title">Contact <span>Me</span></h2>
+                <hr class="line">
+                <div class="contact_container">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="70d5764a-be22-4b92-acba-9a7253ddc915"> <!-- Replace with your actual access key -->
+                
+                        <div class="form_name_row">
+                            <div class="left_form_row">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="first_name" id="first_name" required placeholder="Enter First Name">
+                            </div>
+                            <div class="right_form_row">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" id="last_name" required placeholder="Enter Last Name">
+                            </div>
+                        </div>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Enter Email">
+                        
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" required placeholder="Enter Phone Number">
+                        
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" required placeholder="Enter Subject">
+                        
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" required placeholder="Enter Message"></textarea>
+                        
+                        <!-- Include this line to avoid form spam -->
+                        <input type="hidden" name="botcheck" id="botcheck" />
+                        
+                        <input type="submit" value="Send" id="send_button">
+                    </form>
+                </div>
+                
+    <script src="script.js"></script>
+</body>
+
+</html>
